@@ -6,7 +6,7 @@ function solution(my_string) {
 }
 
 // 다른 사람 풀이
-// function error(my_string) {
+// function solution(my_string) {
 // let result = "";
 // for (let x = 0; x < my_string.length; x++) {
 // const char = my_string[x];
