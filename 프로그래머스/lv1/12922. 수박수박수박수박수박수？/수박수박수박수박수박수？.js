@@ -21,3 +21,24 @@ function solution(n) {
 // const solution(n) {
 //     return "수박".repeat(n).slice(0,n)
 // }
+
+// 다른 풀이3
+// const solution = (n: number): string => {
+//   const a = '수';
+//   const b = '박';
+//   const temp: Array<string> = [];
+//   // n이 짝수일 때,
+//   if (n % 2 === 0) {
+//     for (let i = 0; i < n / 2; i++) {
+//       temp.push(a, b);
+//     }
+//   }
+//   //n이 홀수일 때,
+//   else if (n % 2 !== 0) {
+//     for (let i = 1; i < n / 2; i++) {
+//       temp.push(a, b);
+//     }
+//     temp.push(a);
+//   }
+//   return temp.join('');
+// };
