@@ -16,3 +16,8 @@ function solution(n) {
 // function solution(n) {
 //   return "수박".repeat(n / 2) + (n % 2 === 0 ? "" : "수");
 // }
+
+// 다른 풀이2
+// const solution(n) {
+//     return "수박".repeat(n).slice(0,n)
+// }
