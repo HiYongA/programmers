@@ -4,9 +4,9 @@ function solution(box, n) {
 }
 
 // 다른 사람풀이
-function solution(box, n) {
-    let [width, length, height] = box;
+// function solution(box, n) {
+//     let [width, length, height] = box;
 
-    return Math.floor(width / n) * Math.floor(length / n) * Math.floor(height / n);
+//     return Math.floor(width / n) * Math.floor(length / n) * Math.floor(height / n);
 
-}
+// }
