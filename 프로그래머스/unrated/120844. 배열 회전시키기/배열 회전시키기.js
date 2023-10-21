@@ -9,3 +9,10 @@ function solution(numbers, direction) {
 
   return numbers;
 }
+
+
+// 다른 풀이
+// function solution(numbers, direction) {
+//     direction === 'right' ? numbers.unshift(numbers.pop()) : numbers.push(numbers.shift());
+//     return numbers;
+// }
