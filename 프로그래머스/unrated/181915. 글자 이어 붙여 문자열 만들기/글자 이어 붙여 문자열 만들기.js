@@ -5,3 +5,9 @@ function solution(my_string, index_list) {
     }
     return answer
 }
+
+
+// 다른 풀이
+// function solution(my_string, index_list) {
+//     return index_list.map(i => my_string[i]).join('')
+// }
